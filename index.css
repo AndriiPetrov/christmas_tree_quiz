@@ -9,7 +9,7 @@
   height: 500px;
   margin: auto;
   margin-top: 50px;
-  background: #0b1ace;
+  background: whitesmoke;
   border-radius: 120px;
   z-index: -2;
   box-shadow: 0 0 30px #5da6ff;
@@ -85,6 +85,7 @@
   animation-delay: 0s;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .or2 {
@@ -99,6 +100,7 @@
   animation-delay: 0.5s;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .or3 {
@@ -113,6 +115,7 @@
   animation-delay: 1s;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .or4 {
@@ -123,6 +126,11 @@
       0 0 30px #0f0,
       0 0 45px #0f0,
       0 0 60px #0f0;
+  animation-name: or4;
+  animation-delay: 1.5s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .or5 {
@@ -133,6 +141,11 @@
       0 0 30px blue,
       0 0 45px blue,
       0 0 60px blue;
+  animation-name: or5;
+  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .or6 {
@@ -143,6 +156,11 @@
       0 0 30px #df2fff,
       0 0 45px #df2fff,
       0 0 60px #df2fff;
+  animation-name: or6;
+  animation-delay: 2.5s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .or7 {
@@ -153,6 +171,11 @@
       0 0 30px orange,
       0 0 45px orange,
       0 0 60px orange;
+  animation-name: or7;
+  animation-delay: 3s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .or8 {
@@ -163,6 +186,11 @@
       0 0 30px sienna,
       0 0 45px sienna,
       0 0 60px sienna;
+  animation-name: or8;
+  animation-delay: 3.5s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .or9 {
@@ -173,6 +201,11 @@
       0 0 30px violet,
       0 0 45px violet,
       0 0 60px violet;
+  animation-name: or9;
+  animation-delay: 4s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes or1 {
@@ -192,7 +225,49 @@
 @keyframes or3 {
   0%   {background-color:#ff0;}
   25%  {background-color:#FF4500;}
+  50%  {background-color:green;}
+  75%  {background-color:blueviolet;}
+  100% {background-color:#ff0;}
+}
+@keyframes or4 {
+  0%   {background-color:#0f0;}
+  25%  {background-color:#FF4500;}
   50%  {background-color:blue;}
   75%  {background-color:green;}
-  100% {background-color:#ff0;}
+  100% {background-color:#0f0;}
+}
+@keyframes or5 {
+  0%   {background-color:blue;}
+  25%  {background-color:yellow;}
+  50%  {background-color:yellowgreen;}
+  75%  {background-color:green;}
+  100% {background-color:blue;}
+}
+@keyframes or6 {
+  0%   {background-color:#df2fff;}
+  25%  {background-color:#FF4500;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:#df2fff;}
+}
+@keyframes or7 {
+  0%   {background-color:orange;}
+  25%  {background-color:#FF4500;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:orange;}
+}
+@keyframes or8 {
+  0%   {background-color:sienna;}
+  25%  {background-color:#FF4500;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:sienna;}
+}
+@keyframes or9 {
+  0%   {background-color:violet;}
+  25%  {background-color:#FF4500;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:violet;}
 }
