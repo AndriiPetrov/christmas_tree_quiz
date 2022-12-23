@@ -75,7 +75,7 @@
 
 .or1 {
   left: 45%;
-  top: 20%;
+  top: 19%;
   background: #FF4500;
   box-shadow: 0 0 15px #FF4500,
       0 0 30px #FF4500,
@@ -84,7 +84,7 @@
 }
 
 .or2 {
-  left: 53%;
+  left: 52%;
   top: 30%;
   background: #ff308f;
   box-shadow: 0 0 15px #ff308f,
@@ -95,7 +95,7 @@
 
 .or3 {
   left: 40%;
-  top: 38%;
+  top: 37%;
   background: #ff0;
   box-shadow: 0 0 15px #ff0,
       0 0 30px #ff0,
@@ -114,8 +114,8 @@
 }
 
 .or5 {
-  left: 37%;
-  top: 55%;
+  left: 38%;
+  top: 53%;
   background: blue;
   box-shadow: 0 0 15px blue,
       0 0 30px blue,
@@ -124,8 +124,8 @@
 }
 
 .or6 {
-  left: 57%;
-  top: 64%;
+  left: 58%;
+  top: 61%;
   background: #df2fff;
   box-shadow: 0 0 15px #df2fff,
       0 0 30px #df2fff,
@@ -134,11 +134,31 @@
 }
 
 .or7 {
-  left: 37%;
-  top: 70%;
+  left: 34%;
+  top: 68%;
   background: orange;
   box-shadow: 0 0 15px orange,
       0 0 30px orange,
       0 0 45px orange,
       0 0 60px orange;
+}
+
+.or8 {
+  left: 49%;
+  top: 72%;
+  background: sienna;
+  box-shadow: 0 0 15px sienna,
+      0 0 30px sienna,
+      0 0 45px sienna,
+      0 0 60px sienna;
+}
+
+.or9 {
+  left: 66%;
+  top: 74%;
+  background: violet;
+  box-shadow: 0 0 15px violet,
+      0 0 30px violet,
+      0 0 45px violet,
+      0 0 60px violet;
 }
