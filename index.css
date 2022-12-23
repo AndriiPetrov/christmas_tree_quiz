@@ -81,6 +81,10 @@
       0 0 30px #FF4500,
       0 0 45px #FF4500,
       0 0 60px #FF4500;
+  animation-name: or1;
+  animation-delay: 0s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .or2 {
@@ -91,6 +95,10 @@
       0 0 30px #ff308f,
       0 0 45px #ff308f,
       0 0 60px #ff308f;
+  animation-name: or2;
+  animation-delay: 0.5s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .or3 {
@@ -101,6 +109,10 @@
       0 0 30px #ff0,
       0 0 45px #ff0,
       0 0 60px #ff0;
+  animation-name: or3;
+  animation-delay: 1s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .or4 {
@@ -161,4 +173,26 @@
       0 0 30px violet,
       0 0 45px violet,
       0 0 60px violet;
+}
+
+@keyframes or1 {
+  0%   {background-color:#FF4500;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:#FF4500;}
+}
+@keyframes or2 {
+  0%   {background-color:#ff308f;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:hsl(120, 100%, 25%);}
+  100% {background-color:#ff308f;}
+}
+@keyframes or3 {
+  0%   {background-color:#ff0;}
+  25%  {background-color:#FF4500;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:#ff0;}
 }
