@@ -9,7 +9,7 @@
   height: 500px;
   margin: auto;
   margin-top: 50px;
-  background: whitesmoke;
+  background: darkblue;
   border-radius: 120px;
   z-index: -2;
   box-shadow: 0 0 30px #5da6ff;
@@ -231,7 +231,7 @@
 }
 @keyframes or4 {
   0%   {background-color:#0f0;}
-  25%  {background-color:#FF4500;}
+  25%  {background-color:burlywood;}
   50%  {background-color:blue;}
   75%  {background-color:green;}
   100% {background-color:#0f0;}
@@ -246,14 +246,14 @@
 @keyframes or6 {
   0%   {background-color:#df2fff;}
   25%  {background-color:#FF4500;}
-  50%  {background-color:blue;}
+  50%  {background-color:goldenrod;}
   75%  {background-color:green;}
   100% {background-color:#df2fff;}
 }
 @keyframes or7 {
   0%   {background-color:orange;}
   25%  {background-color:#FF4500;}
-  50%  {background-color:blue;}
+  50%  {background-color:darkblue;}
   75%  {background-color:green;}
   100% {background-color:orange;}
 }
